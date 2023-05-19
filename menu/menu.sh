@@ -83,7 +83,7 @@ echo -e "          ${GB}↑↑ Up  : $utoday                  ↑↑ Up  : $umon
 echo -e "          ${GB}≈ Total: $ttoday                  ≈ Total: $tmon${NC}   "
 echo -e "${BB}═════════════════════════════════════════════════════════════${NC}"
 echo -e "                ${WB}༶ ━━━━━ [ ALL MENU ] ━━━━━ ༶${NC}               "
-echo -e "${BB}═════════════════════════════════════════════════════════════════${NC}"
+echo -e "${BB}═════════════════════════════════════════════════════════════${NC}"
 echo -e " [\e[5m01\e[0m] SSH & OpenVPN Menu"       
 echo -e " [\e[5m02\e[0m] Xray Vmess Menu"          
 echo -e " [\e[5m03\e[0m] Xray Vless Menu"          
