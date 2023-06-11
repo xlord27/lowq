@@ -610,14 +610,14 @@ wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/tri
 wget -O renew-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/renew-vmess.sh" && chmod +x renew-vmess
 wget -O del-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/del-vmess.sh" && chmod +x del-vmess
 wget -O cek-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/cek-vmess.sh" && chmod +x cek-vmess
-wget -O user-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/user-vmess.sh" && chmod +x user-vmess
+wget -O user-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/menu/user-vmess" && chmod +x user-vmess
 # vless
 wget -O add-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-vless.sh" && chmod +x add-vless
 wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh" && chmod +x trialvless
 wget -O renew-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/renew-vless.sh" && chmod +x renew-vless
 wget -O del-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/del-vless.sh" && chmod +x del-vless
 wget -O cek-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/cek-vless.sh" && chmod +x cek-vless
-wget -O user-vless "https://raw.githubusercontent.com/xlord27/lowq/main/user-vless.sh" && chmod +x user-vless
+wget -O user-vless "https://raw.githubusercontent.com/xlord27/lowq/main/menu/user-vless" && chmod +x user-vless
 # trojan
 wget -O add-tr "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-tr.sh" && chmod +x add-tr
 wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh" && chmod +x trialtrojan
