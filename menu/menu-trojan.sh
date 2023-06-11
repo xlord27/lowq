@@ -11,7 +11,7 @@ CEKEXPIRED () {
     exit 0
 fi
 }
-IZIN=$(curl -sS https://raw.githubusercontent.com/xlord27/permission/main/https://raw.githubusercontent.com/xlord27/permission/main/ipminiipmini | awk '{print $4}' | grep $MYIP)
+IZIN=$(curl -sS https://raw.githubusercontent.com/xlord27/permission/main/ipmini | awk '{print $4}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo -e "\e[32mPermission Accepted...\e[0m"
 CEKEXPIRED
