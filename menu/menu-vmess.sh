@@ -41,11 +41,11 @@ echo -e ""
 read -p " Select menu :  "  opt
 echo -e ""
 case $opt in
-1) clear ; add-ws ; exit ;;
+1) clear ; add-vmess ; exit ;;
 2) clear ; trialvmess ; exit ;;
-3) clear ; renew-ws ; exit ;;
-4) clear ; del-ws ; exit ;;
-5) clear ; cek-ws ; exit ;;
+3) clear ; renew-vmess ; exit ;;
+4) clear ; del-vmess ; exit ;;
+5) clear ; cek-vmess ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
