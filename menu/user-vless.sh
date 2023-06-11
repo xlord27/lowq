@@ -5,8 +5,21 @@
 # Auther  : XLRD TEAM
 # (C) Copyright 2023
 # =========================================
-clear
-MYIP=$(wget -qO- ipv4.icanhazip.com);
+clearIZIN=$(curl -sS https://raw.githubusercontent.com/xlord27/permission/main/ipmini | awk '{print $4}' | grep $MYIP)
+
+if [ $MYIP = $IZIN ]; then
+
+echo -e "\e[32mPermission Accepted...\e[0m"
+
+CEKEXPIRED
+
+else
+
+echo -e "\e[31mPermission Denied!\e[0m";
+
+exit 0
+
+fi
 NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/usr/local/etc/xray/vless.json")
         if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
                 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
