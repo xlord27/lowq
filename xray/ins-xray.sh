@@ -605,7 +605,7 @@ systemctl restart trojan-go
 
 cd /usr/bin/
 # vmess
-wget -O add-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-vmess.sh" && chmod +x add-vmess
+wget -O add-vmess "https://raw.githubusercontent.com/xlord27/VPN/main/add-vmess.sh" && chmod +x add-vmess
 wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh" && chmod +x trialvmess
 wget -O renew-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/renew-vmess.sh" && chmod +x renew-vmess
 wget -O del-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/del-vmess.sh" && chmod +x del-vmess
