@@ -605,19 +605,19 @@ systemctl restart trojan-go
 
 cd /usr/bin/
 # vmess
-wget -O add-ws "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-ws.sh" && chmod +x add-ws
+wget -O add-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-vmess.sh" && chmod +x add-vmess
 wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh" && chmod +x trialvmess
-wget -O renew-ws "https://raw.githubusercontent.com/xlord27/lowq/main/xray/renew-ws.sh" && chmod +x renew-ws
-wget -O del-ws "https://raw.githubusercontent.com/xlord27/lowq/main/xray/del-ws.sh" && chmod +x del-ws
-wget -O cek-ws "https://raw.githubusercontent.com/xlord27/lowq/main/xray/cek-ws.sh" && chmod +x cek-ws
-
+wget -O renew-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/renew-vmess.sh" && chmod +x renew-vmess
+wget -O del-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/del-vmess.sh" && chmod +x del-vmess
+wget -O cek-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/cek-vmess.sh" && chmod +x cek-vmess
+wget -O user-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/user-vmess.sh" && chmod +x user-vmess
 # vless
 wget -O add-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-vless.sh" && chmod +x add-vless
 wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh" && chmod +x trialvless
 wget -O renew-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/renew-vless.sh" && chmod +x renew-vless
 wget -O del-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/del-vless.sh" && chmod +x del-vless
 wget -O cek-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/cek-vless.sh" && chmod +x cek-vless
-
+wget -O user-vless "https://raw.githubusercontent.com/xlord27/lowq/main/user-vless.sh" && chmod +x user-vless
 # trojan
 wget -O add-tr "https://raw.githubusercontent.com/xlord27/lowq/main/xray/add-tr.sh" && chmod +x add-tr
 wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh" && chmod +x trialtrojan
