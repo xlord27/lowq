@@ -31,6 +31,7 @@ echo -e " [\e[36m•2\e[0m] Trial Akun XRAY Vmess "
 echo -e " [\e[36m•3\e[0m] Extending Akun XRAY Vmess Active Life "
 echo -e " [\e[36m•4\e[0m] Delete Akun XRAY Vmess Websocket "
 echo -e " [\e[36m•5\e[0m] Check User Login XRAY Vmess "
+echo -e " [\e[36m•6\e[0m] Check Member XRAY Vmess "
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mKEMBALI KE MENU\033[0m"
 echo -e ""
@@ -46,6 +47,7 @@ case $opt in
 3) clear ; renew-vmess ; exit ;;
 4) clear ; del-vmess ; exit ;;
 5) clear ; cek-vmess ; exit ;;
+6) clear ; user-vmess ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
